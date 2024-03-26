@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Elegant Fountain Pen",
+        "description": "A masterfully crafted fountain pen with a sleek, timeless design. Perfect for those who appreciate the finer details.",
+        "price": "$150",
+        "color": "Black Onyx"
+    },
+    {
+        "id": 2,
+        "name": "Classic Ballpoint",
+        "description": "A reliable and smooth ballpoint pen, designed for everyday use. Combines classic styling with modern functionality.",
+        "price": "$85",
+        "color": "Royal Blue"
+    },
+    {
+        "id": 3,
+        "name": "Vintage Rollerball",
+        "description": "Experience the smooth glide of this vintage-inspired rollerball pen, which blends traditional aesthetics with contemporary writing comfort.",
+        "price": "$120",
+        "color": "Burgundy Red"
+    },
+    {
+        "id": 4,
+        "name": "Precision Drafting Pencil",
+        "description": "For the artist or engineer, this drafting pencil offers unparalleled precision and reliability. Features a built-in sharpener and lead hardness indicator.",
+        "price": "$95",
+        "color": "Graphite Gray"
+    },
+    {
+        "id": 5,
+        "name": "Executive Calligraphy Set",
+        "description": "A luxurious calligraphy set for the discerning writer. Includes a selection of nibs and inks to create stunning handwritten pieces.",
+        "price": "$200",
+        "color": "Ivory White"
+    },
+    {
+        "id": 6,
+        "name": "Limited Edition Pocket Pen",
+        "description": "This compact and stylish pocket pen is a limited edition release, perfect for writing on the go. Features a unique twist mechanism.",
+        "price": "$180",
+        "color": "Emerald Green"
+    }
+]

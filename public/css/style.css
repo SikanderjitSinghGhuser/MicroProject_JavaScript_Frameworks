@@ -1,0 +1,182 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+
+    background: url('/images/pen2.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.featured {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pen {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+
+.pen img {
+    width: 200px;
+
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+.pen p {
+    margin-top: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .pen {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .pen {
+        width: 100%;
+    }
+}
+
+/* Navigation Bar Styling */
+.navigation {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #555;
+}
+
+.navigation a:hover,
+.pen img:hover {
+    opacity: 0.8;
+    /* Slightly fade on hover */
+}
+
+/* Content Styling for Consistency */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    margin: 20px 0;
+}
+
+/* Forms and Buttons */
+form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#data-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pen-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.pen-item:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pen-item h3 {
+    margin-top: 0;
+}
+
+.pen-item .price {
+    font-weight: bold;
+    color: #007bff;
+}
